@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rhelsing/js-playground/issues"
   },
-  "homepage": "https://github.com/rhelsing/js-playground#readme"
+  "homepage": "https://github.com/rhelsing/js-playground#readme",
+  "dependencies": {
+    "pryjs": "^1.0.3"
+  }
 }
