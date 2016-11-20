@@ -81,18 +81,17 @@ console.log(a3)
 
 eval("1+1")//like ruby
 
-//THESE ARNT AVAILABLE TO ME YET?
 //default params:
-// function multiply(a, b = 1) {
-//   return a*b;
-// }
+function multiply(a, b = 1) {
+  return a*b;
+}
 
-// multiply(5); // 5
+multiply(5); // 5
 
-// //the rest params.. crazy
-// function multiply(multiplier, ...theArgs) {
-//   return theArgs.map(x => multiplier * x);
-// }
+//the rest params.. crazy
+function multiply(multiplier, ...theArgs) {
+  return theArgs.map(x => multiplier * x);
+}
 
-// var arr = multiply(2, 1, 2, 3);
-// console.log(arr); // [2, 4, 6]
+var arr = multiply(2, 1, 2, 3);
+console.log(arr); // [2, 4, 6]
