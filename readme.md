@@ -1,16 +1,18 @@
 Learning more JS
 
 #steps
-* syntax - require class from other file into main
-* libs
+* syntax
+* libs explore
 * babel
 * awesome-electron
 * electron book
 * eloquent JS
 
 #check out now
+* http://rubyjs.org
 * https://github.com/sindresorhus/opn
 * https://www.npmjs.com/package/underscore
+* https://www.npmjs.com/package/lodash
 * https://www.npmjs.com/package/pryjs
 * https://www.npmjs.com/package/moment
 * https://github.com/cheeriojs/cheerio
@@ -21,7 +23,7 @@ Learning more JS
 * https://github.com/taijinlee/humanize
 
 #check out nexr
-* https://www.npmjs.com/package/lodash
+
 * http://blog.modulus.io/nodejs-and-sqlite
 * https://www.npmjs.com/package/sqlite3
 * https://github.com/PhilWaldmann/openrecord

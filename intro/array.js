@@ -9,6 +9,9 @@ colors.forEach (color =>
 
 //forEach, map, filter, every (only true if every element returns true) some (same as any?), includes
 
+//uniq: [...new Set(arr)]
+//compact, run filter with nil values.
+
 //need to look up other methods I use.. uniq (convert to set and back?), compact
 
 

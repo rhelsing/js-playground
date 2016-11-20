@@ -1,4 +1,4 @@
-var Polygon = require('./polygon.js')
+var Polygon = require('./intro/polygon.js')
 var p1 = new Polygon(102,323);
 p(p1.area)
 
