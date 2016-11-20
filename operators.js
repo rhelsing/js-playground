@@ -12,3 +12,7 @@ if (status == "adult")
   console.log("hey")
 else
   console.log("bye")
+
+
+if ("coolbeans".includes("beans")) //startsWith, endsWith, split, toLowerCase, toUpperCase, trim, substr(0,-1)
+  console.log("yup")

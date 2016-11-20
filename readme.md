@@ -1,7 +1,7 @@
 Learning more JS
 
 #steps
-* syntax
+* syntax - require class from other file into main
 * libs
 * babel
 * awesome-electron
