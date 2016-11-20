@@ -9,10 +9,9 @@ Learning more JS
 * eloquent JS
 
 #check out now
-* http://rubyjs.org
 * https://github.com/sindresorhus/opn
-* https://www.npmjs.com/package/underscore
 * https://www.npmjs.com/package/lodash
+* http://rubyjs.org
 * https://www.npmjs.com/package/pryjs
 * https://www.npmjs.com/package/moment
 * https://github.com/cheeriojs/cheerio
