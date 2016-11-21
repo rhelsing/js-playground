@@ -1,12 +1,12 @@
 Learning more JS
 
-#steps
-* syntax
-* libs explore
-* babel
-* awesome-electron
-* electron book
-* eloquent JS
+#Learning path
+* intro (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+* libs explore - see below + (https://github.com/sindresorhus/awesome-nodejs / https://github.com/sorrycc/awesome-javascript)
+* babel (https://babeljs.io)
+* awesome-electron (https://github.com/sindresorhus/awesome-electron)
+* electron book (https://www.amazon.com/dp/B01G7TTKSK/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=IRRWJKZ9ZZ1Q&coliid=I1WARD5ZDQCN96)
+* eloquent JS (http://eloquentjavascript.net)
 
 #check out now
 * https://github.com/sindresorhus/opn
