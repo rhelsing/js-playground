@@ -1,0 +1,5 @@
+require('rubyjs')
+R.puts("hello")
+let arr = R([44,21,22,0,null,221])
+let new_arr = arr.compact().map(w => { return w**3 }).to_native()
+console.log(new_arr)

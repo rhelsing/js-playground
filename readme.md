@@ -3,48 +3,33 @@ Learning more JS
 #Learning path
 * intro (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 * libs explore - see below + (https://github.com/sindresorhus/awesome-nodejs / https://github.com/sorrycc/awesome-javascript)
-* babel (https://babeljs.io)
+  * csv, learn how to process multiple in parallel
 * awesome-electron (https://github.com/sindresorhus/awesome-electron)
 * electron book (https://www.amazon.com/dp/B01G7TTKSK/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=IRRWJKZ9ZZ1Q&coliid=I1WARD5ZDQCN96)
 * eloquent JS (http://eloquentjavascript.net)
 
 #check out now
-* https://github.com/sindresorhus/opn
-* https://www.npmjs.com/package/lodash
-* http://rubyjs.org
-* https://www.npmjs.com/package/pryjs
-* https://www.npmjs.com/package/moment
-* https://github.com/cheeriojs/cheerio
-* https://github.com/creationix/nstore
-* https://github.com/louischatriot/nedb
 * https://www.npmjs.com/package/csv
 * https://github.com/mafintosh/csv-parser
-* https://github.com/taijinlee/humanize
-
-#check out nexr
-
-* http://blog.modulus.io/nodejs-and-sqlite
-* https://www.npmjs.com/package/sqlite3
-* https://github.com/PhilWaldmann/openrecord
-* http://reactivex.io
-* https://github.com/petkaantonov/bluebird
-* http://highlandjs.org
-* https://github.com/epeli/underscore.string
-* https://github.com/josdejong/mathjs
 * https://github.com/sindresorhus/neat-csv
-* https://github.com/Hardmath123/nearley
-* https://github.com/dominictarr/excel-stream
-* http://knexjs.org
-* https://github.com/wooorm/retext
-* https://github.com/wooorm/franc
-* https://github.com/sindresorhus/leven
-* https://github.com/NaturalNode/natural
-* https://github.com/Automattic/kue
-* https://github.com/OptimalBits/bull
-* https://github.com/rschmukler/agenda
+* https://github.com/PhilWaldmann/openrecord
+
+#check out next
+
 
 #To check out eventually:
-* http://caolan.github.io/async/
+* https://github.com/petkaantonov/bluebird
+* http://reactivex.io
+* https://github.com/taijinlee/humanize
+* http://highlandjs.org - multiple files at once
+* https://github.com/epeli/underscore.string
+* https://github.com/Hardmath123/nearley //parsle related
+* https://github.com/dominictarr/excel-stream //parsle related
+* https://github.com/wooorm/retext //hr related
+* https://github.com/NaturalNode/natural //hr related
+* http://caolan.github.io/async/ // how do I actually run work in multiple processes? like ruby parallel?
+
+* https://github.com/wooorm/nlcst
 * https://www.npmjs.com/package/q
 * https://www.npmjs.com/package/validator
 * http://phantomjs.org

@@ -18,6 +18,13 @@
   },
   "homepage": "https://github.com/rhelsing/js-playground#readme",
   "dependencies": {
-    "pryjs": "^1.0.3"
+    "asyncawait": "^1.0.6",
+    "cheerio": "^0.22.0",
+    "chrono-node": "^1.2.5",
+    "moment": "^2.16.0",
+    "nedb": "^1.8.0",
+    "pryjs": "^1.0.3",
+    "rubyjs": "^0.7.2",
+    "sqlite3": "^3.1.8"
   }
 }
