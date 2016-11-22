@@ -24,6 +24,10 @@ var children = []
 // var child = cp.fork('./parallel_worker'); //can do two per core
 //child.pid
 
+//also try opening threads inside workers: https://npmjs.org/package/webworker-threads
+
+//determine work evaluator - length, load during run, optimize for current machine
+
 range(1, os.cpus().length*5).forEach (i => { //can run 20 processes relatively easily on mpb
   console.log(i)
   children.push(cp.fork('./parallel_worker'))
