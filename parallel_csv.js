@@ -5,7 +5,7 @@ var m_local = {id: null}
 
 process.on('message', function(m) {
   m_local = m
-  var files = [...new Set(m.files.map(f => `${m.input}${f}`))] // can use delete method here
+  var files = m.files.map(f => `${m.input}${f}`)
 
   eachLimit(files, m.threads, process_file, function(err){
     if(err != null){
