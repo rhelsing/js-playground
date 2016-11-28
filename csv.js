@@ -14,7 +14,7 @@ console.log(Date.now())
 //1. spin up
 range(0, processes).forEach (i => {
   console.log(i)
-  children.push(cp.fork('./parallel_csv'))
+  children.push(cp.fork('./parallel_csv_lib'))
 })
 
 //2. delegate
@@ -46,6 +46,6 @@ for (let child of children) {
 //3, 2, 95, 37711ms
 //2, 3, 77, 37074ms
 //2, 4, 78, 36725ms
-//2, 5, 78, 35180ms* (36778)
+//2, 5, 78, 35180ms* (36778) (35025) (53077 w/ cycle through data..) - should handle in lib if possible
 //2, 6, 80, 36787ms
 //3, 5, 95, 37682ms

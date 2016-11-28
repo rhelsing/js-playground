@@ -1,4 +1,4 @@
-const csv = require('neat-csv')
+var parse = require('csv-parse');
 const fs = require('fs')
 const eachLimit = require('async/eachLimit')
 var m_local = {id: null}
@@ -15,11 +15,12 @@ process.on('message', function(m) {
   });
 });
 
+//super slow
 function process_file(file, callback) {
-  var stream = fs.createReadStream(file)
-  //be able to pass complex options into csv for mapping, transformation, reduce etc in one pass
-  csv(stream).then(data => { //data = csv as object
-      process.send({id: m_local.id, file: file, rows: data.length})
-      callback()
-  });
+  var parser = parse({}, function (err, data) {
+    process.send({id: m_local.id, file: file, rows: data.length})
+    callback()
+  })
+  fs.createReadStream(file).pipe(parser);
+
 }
