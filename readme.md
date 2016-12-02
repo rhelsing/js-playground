@@ -7,6 +7,7 @@ Learning more JS
 * awesome-electron (https://github.com/sindresorhus/awesome-electron)
 * electron book (https://www.amazon.com/dp/B01G7TTKSK/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=IRRWJKZ9ZZ1Q&coliid=I1WARD5ZDQCN96)
 * eloquent JS (http://eloquentjavascript.net)
+* https://addyosmani.com/resources/essentialjsdesignpatterns/book/
 
 #check out now
 * https://www.npmjs.com/package/csv
