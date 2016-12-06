@@ -1,5 +1,17 @@
 Learning more JS
 
+#NOW
+* https://blog.risingstack.com/node-js-best-practices/
+* http://callbackhell.com
+* https://github.com/feross/run-series
+* http://justbuildsomething.com/node-js-best-practices/
+* https://davidwalsh.name/promises
+* http://exploringjs.com/es6/ch_promises.html
+* Learn best module / class practices (http://eloquentjavascript.net/06_object.html / https://webpack.github.io/docs/commonjs.html)
+* Learn best event handling / promises practices / callbacks (https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events / https://www.kirupa.com/html5/custom_events_js.htm )
+* Using Worker() with electron - https://www.npmjs.com/package/electron-workers
+* Create large read only hash that is sharable between processes - easy
+
 #Learning path
 * intro (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 * libs explore - see below + (https://github.com/sindresorhus/awesome-nodejs / https://github.com/sorrycc/awesome-javascript)
